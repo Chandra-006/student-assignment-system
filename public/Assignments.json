@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Math Assignment",
+    "description": "Solve algebra problems.",
+    "instructions": "Submit a PDF of your solutions.",
+    "dueDate": "2025-03-15"
+  },
+  {
+    "id": 2,
+    "title": "Science Project",
+    "description": "Research and present a science topic.",
+    "instructions": "Upload a PowerPoint presentation.",
+    "dueDate": "2025-03-20"
+  }
+]

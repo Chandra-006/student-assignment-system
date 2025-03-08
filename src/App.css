@@ -1,0 +1,124 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.assignment-list {
+  margin: 20px;
+}
+
+.assignment-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.assignment-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.assignment-detail {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.submission-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.submission-form input, .submission-form textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.submission-form button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submission-form button:hover {
+  background-color: #218838;
+}
+/* styles.css */
+.assignment-list .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.assignment-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+}
+
+.submission-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.submission-form div {
+  margin-bottom: 1rem;
+}
+
+.submission-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.submission-form input,
+.submission-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.success-message {
+  color: green;
+  text-align: center;
+}
+
+.home-page {
+  padding: 1rem;
+}
+
+.home-page header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.assignment-page {
+  padding: 1rem;
+}

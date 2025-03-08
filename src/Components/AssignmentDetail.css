@@ -1,0 +1,17 @@
+.assignment-detail {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .assignment-detail h2 {
+    color: #6e8efb;
+  }
+  .assignment-detail p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
